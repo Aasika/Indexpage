@@ -1,0 +1,210 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.06rem;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: #ADEFD1FF;
+}
+#umm {
+  animation-name: shake;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-iteration-count: 2;
+  animation-duration: 1s;
+}
+#hmm {
+  animation-name: shake;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 2;
+  animation-duration: 1s;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: auto;
+  padding-left: 220px;
+}
+button {
+  width: 230px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+h3 {
+  border-radius: 20px;
+  color: black;
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+h3:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+#opt1 {
+  /* display: none; */
+
+  visibility: hidden;
+}
+#opt2 {
+  /* display: none; */
+
+  visibility: hidden;
+}
+
+.header {
+  background-image: url(./images/Capture2.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 100vh;
+
+  /* background-color: orange; */
+}
+h2 {
+  /* text-transform: uppercase; */
+  padding: 30px;
+  padding-top: 70px;
+  /* font-size: 2rem; */
+  /* font-weight: 600; */
+  color: aliceblue;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-evenly;
+}
+.rows img {
+  height: 250px;
+  width: 300px;
+  border-radius: 25%;
+  margin-bottom: -30px;
+}
+.m {
+  border: 2px solid black;
+  border-radius: 25%;
+  padding: 25px;
+  background-color: #00203FFF;
+  color: white;
+}
+
+.games {
+  margin-top: -100px;
+  padding-top: 50px;
+}
+.next {
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+}
+.next button {
+  width: 130px;
+  border-radius: 30px;
+  background-color: orange;
+  color: black;
+}
+.m center h2,
+p {
+  background-color: #00203FFF;
+  margin-top: -20px;
+}
+.secondhalf {
+  background-color: #ADEFD1FF;
+}
+.heading {
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding-top: 80px;
+padding-left: 300px;
+}
+
+.m h2 {
+  color: orange;
+  text-decoration: underline;
+}
+
+.headings {
+  color: black;
+  text-align: center;
+  font-size: 1.7rem;
+  padding-bottom: 50px;
+  text-decoration: underline;
+}
+.m:hover {
+  transform: translateY(10px);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+audio {
+  /* visibility: hidden; */
+}
+a {
+  text-decoration: none;
+}
+
+.more:hover {
+  background-color: white;
+}
+
+@keyframes visible {
+  0% {
+    opacity: 0;
+    color: white;
+  }
+  50% {
+    opacity: 0.5;
+    color: grey;
+  }
+  100% {
+    opacity: 1;
+    color: black;
+  }
+}
+
+.heading {
+  animation-name: visible;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#k:hover {
+  background-color: aliceblue;
+}
+.topmost{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+.icons img{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    padding: 20px;
+}
